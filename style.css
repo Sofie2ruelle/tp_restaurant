@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Satisfy');
+
+body {
+  font-size:16px;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: #070707;
+}
+
+
+h1,h2 {
+  font-size: 3.85em;
+  margin: 0 0 .5em 0;
+  margin-left: 15px;
+  font-family: 'Satisfy', cursive;
+}
+
+
+
+main {
+    background-color: rgb(224, 190, 148);
+    width: 100%;
+    
+}
+
+footer {
+    color: bisque;
+    text-align: center;
+}
+
+#grid_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    color: #74481e;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #000000;
+}
+
+header h2 i{
+    color: bisque;
+    font-size: 30px;
+}
+
+li a {
+    display: block;
+    padding: 0px 0px;
+    text-decoration: none;
+    text-align: center;
+    color: bisque;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(148, 144, 139);
+    color: white;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+}
+
+footer #reseaux {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+footer i{
+    color: bisque;
+    font-size: 30px;
+}
+
+#img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Noir et blanc */
+.grayscale div img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.grayscale  div img :hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#img h1{
+    mix-blend-mode: color-dodge;
+    font-family: Roboto;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    color: rgb(189, 135, 34);
+}
+ 
+
+#img .img_fond1{
+    background-image: url('/images/barman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+
+}
+
+#img .img_fond2{
+    background-image: url('/images/Chef.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+
+}
+
+
+#img .img_fond3{
+    background-image: url('/images/serveuse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+
+}
